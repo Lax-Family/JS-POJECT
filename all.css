@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Heebo', 'Roboto', sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fbfc;
+  color: #1a1a1a;
+  margin-top: 80px;
+  /*(רלוונטי יותר לתחילת העמוד) headerמונע התחבאות מתחת ל*/
+}
+
+header {
+  background-color: #bdefff;
+  padding: 20px 40px;
+  align-items: center;
+  display: flex;
+  gap: 4%;/* מרווח בין האובייקטים */
+  color: #0d4466;/*אותיות*/
+  position: fixed;/* לא זז גם כשגוללים את הדף*/
+  top: 0;
+  justify-content: flex-start;/* יישור לימין */
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1000;
+  /*(של הילדים hoverרלוונטי ב) מונע התחבאות מתחת לאובייקטים אחרים*/
+}
+
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d4466;
+  margin-right: auto !important;
+  /* יישור הלוגו לשמאל */
+  box-sizing: content-box;
+  margin: 0;
+  justify-self: end;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  /*ללא פס של קישור*/
+  color: #0d4466;
+  font-weight: 500;
+}
+
+#name {
+  margin-right: auto;
+  /* יישור השם לשמאל */
+}
+
+
+
+/* התקנת פונט */
+@font-face {
+  font-family: 'Heebo';
+  src: url('./fonts/Heebo/Heebo-VariableFont_wght.ttf') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}

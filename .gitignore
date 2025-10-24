@@ -1,0 +1,43 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+.next/ # For Next.js projects
+.nuxt/ # For Nuxt.js projects
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor files
+.vscode/ # For VS Code
+.idea/ # For WebStorm/IntelliJ IDEA
+*.sublime-workspace # For Sublime Text
+*.swp # Vim swap files
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.bak
+
+# תקיית 'לא להגיש'
+לא להגיש/

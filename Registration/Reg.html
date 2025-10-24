@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" type="image/x-icon" href="../Pic/Our Baby.png">
+    <link href='../LogIn/Log.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <!-- codePen לקוח מ -->
+    <div class="wrapper register">
+        <img src="../Pic/Our Baby.png" class="logo" alt="Tiny Hugs Logo">
+
+        <h2>Registration</h2>
+
+        <div class="input-box">
+            <span class="icon"><i class="fa-regular fa-user"></i></span>
+            <input type="text" required >
+            <label>Username</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+            <input type="email" required >
+            <label>Email</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon class="fa-regular fa-eye-slash"></ion-icon></span>
+            <input type="password" required >
+            <label>Password</label>
+        </div>
+        <!-- <div class="remember-forgot">
+            <label><input type="checkbox">Remember me</label>
+        </div> -->
+        <a><button type="submit" class="btn" onclick="newUser()">Register</button></a>
+        <div class="login-register">
+            <p>?אתה כבר רשום<a href="../LogIn/Log.html" class="register-link"><button
+                        class="btn">Login</button>
+
+                </a>
+            </p>
+        </div>
+    </div>
+    <script src="./Reg.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f1f9fc;
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 530px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: #ffffff;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 150px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.wrapper h2 {
+    font-size: 2em;
+    color: #004e6e;
+    text-align: center;
+
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #333;
+    /*!!*/
+    margin: 6% 0;
+
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    /* !! */
+    color: #333;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    /* !! */
+    color: #333;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    /* !! */
+    color: #333;
+    line-height: 57px;
+}
+
+
+.btn {
+    width: 100%;
+    height: 45px;
+    /* !! */
+    background-color: #0099cc;
+    /* צבע תכלת של האתר */
+    border: none;
+    outline: none;
+    /* !! */
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-register {
+    font-size: .9em;
+    /* !! */
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+
+}
+
+.login-register p a {
+    /* !! */
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    margin-left: 45%;
+}
+
+/* התקנת פונט */
+@font-face {
+  font-family: 'Heebo';
+  src: url('../fonts/Heebo/Heebo-VariableFont_wght.ttf') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}

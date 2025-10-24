@@ -1,0 +1,144 @@
+/* כרטיסי ילדים */
+#bigDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.child {
+  background-color: #f3faff;
+  border-radius: 20px;
+  text-align: center;
+  width: 18%;
+  padding-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.pic {
+  border-top-left-radius: 15px;
+  /*מעגלת פינות עליונות שמאליות וימניות*/
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2px;
+  cursor: pointer;
+  /*משנה את הסמן לאצבע*/
+}
+
+.names {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #004c73;
+  font-weight: bold;
+}
+
+.shortDes {
+  font-size: 14px;
+  color: #666;
+}
+
+/* אזור מידע נוסף */
+#info-section {
+  background-color: #eef6fa;
+  text-align: center;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+#info-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #004b6b;
+}
+
+#info-section p {
+  font-size: 16px;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+#info-section a {
+  background-color: #004e6e;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+#info-section a:hover {
+  background-color: #006080;
+}
+
+
+
+.home {
+  background-color: #bdefff;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 350px;
+  padding-left: 10px;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+.home img {
+  max-width: 450px;
+  border-top-right-radius: 70px;
+}
+
+.home-text {
+  margin-top: 18vh;
+}
+
+.home-text h1 {
+  font-size: 70px;
+  color: #003b5a;
+  margin: 0;
+  font-weight: 700;
+}
+
+.home-text h4 {
+  font-size: 20px;
+  line-height: min(1, 1.8);
+  /* גובה שורה */
+  margin-top: 0;
+  /* הצמדת סלוגן לשם */
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+.home-text a {
+  margin: 20px 0;
+}
+
+.introduction {
+  background-color: #004e6e;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  /*מדגיש טקסט*/
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 23%;
+  /* יישור */
+  letter-spacing: 0.3em;
+}
+
+.introduction:hover {
+  background-color: #006c94;
+}
+
+/* אייקון לב */
+.fa-regular.fa-heart,
+.fa-solid.fa-heart {
+  font-size: 16px;
+}

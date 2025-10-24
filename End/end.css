@@ -1,0 +1,73 @@
+form {
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 7vh;
+    flex-direction: column;
+}
+
+label {
+    /* display: block; */
+    margin-top: 2vh;
+    font-weight: bold;
+    color: #333;
+}
+
+#state,
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    /*placeholderפונט ל*/
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.submit-button {
+    background-color: #004e6e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    margin-top: 1vh;
+}
+
+.submit-button:hover {
+    background-color: #0078a0;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 25vh;
+    left: 85vh;
+    width: 15%;
+    height: 6vh;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 24px 24px;
+    border-radius: 12px;
+    border: 1px solid #cce6f0;
+    margin: 8px;
+    background-color: #ffffff;
+    color: #004b6b;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    background-color: #0099cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.message.hidden {
+    display: none;
+}

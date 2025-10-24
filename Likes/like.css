@@ -1,0 +1,85 @@
+body{
+        justify-content: center;
+
+}
+p {
+    text-align: center;
+}
+
+#bigDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    margin-top: 8vh;
+}
+
+.child {
+    background-color: #f2faff;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+    /*צל*/
+    width: 15%;
+    text-align: center;
+    margin-bottom: 2%;
+    transition: transform 0.2s ease;
+    line-height: 1;
+    /*גובה שורה*/
+}
+
+.child:hover {
+    transform: translateY(-5px);
+}
+
+.child img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    /*מעגלת פינות עליונות שמאליות וימניות*/
+    border-top-right-radius: 15px;
+}
+
+.names {
+    font-size: 18px;
+    color: #004b6b;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* מרווח בין הלב לשוליים */
+.fa-regular.fa-heart,
+.fa-solid.fa-heart {
+    margin-bottom: 8px;
+
+}
+
+button {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px solid #cce6f0;
+    margin: 8px;
+    background-color: #ffffff;
+    color: #004b6b;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    background-color: #0099cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077aa;
+}
+
+button:focus {
+    outline: none;
+    border-color: #66ccee;
+    box-shadow: 0 0 0 3px rgba(102, 204, 238, 0.3);
+}

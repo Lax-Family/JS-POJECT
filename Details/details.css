@@ -1,0 +1,54 @@
+.child {
+    display: flex;
+    align-items: center;/*מירכוז*/
+    gap: 10px;
+    margin-top: 9vh;
+    padding: 50px 20px;
+    justify-content: center;/*מירכוז אופקי*/
+    width: 100%;
+    flex-wrap: nowrap;/*מונע מעבר לשורה חדשה*/
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: fit-content;
+}
+
+.pic {
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.names {
+    font-size: 28px;
+    color: #004e6e;
+}
+
+.budget {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin: 10px 0;
+}
+ 
+.description {
+    font-size: 16.5px;
+    color: #333;
+    margin-bottom: 20px;
+    max-width: 400px;
+
+}
+
+#back{
+    margin-left: 2%;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+.fa-regular.fa-heart,
+.fa-solid.fa-heart {
+    cursor: pointer;
+}

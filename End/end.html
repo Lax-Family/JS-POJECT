@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="../all.css">
+    <link rel="stylesheet" href="./end.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../Pic/Our Baby.png">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <a href="./home.html">דף הבית</a>
+        <a href="">עלינו</a>
+        <a href="../Children/Children.html">הילדים שלנו</a>
+        <a href="../LogIn/Log.html"><i class="fa-regular fa-user-circle"></i></a>
+        <a href="../Style/style.html"><i class="fa-brands fa-accessible-icon"></i></a>
+        <a href="../Likes/like.html"><i class="fa-solid fa-heart"></i></a>
+        <script src="../all.js"></script>
+        <div class="logo"><img src="../Pic/Our Baby.png">
+            Tiny Hugs
+        </div>
+    </header>
+
+    <form>
+        <label for="fullName">שם פרטי ומשפחה</label>
+        <input id="fullName" placeholder="ישראל ישראלי" required>
+
+        <label for="email">כתובת מייל</label>
+        <input id="email" placeholder="Israel@gmail.com" pattern="[a-zA-Z\.\d\-]+@(gmail.com|co.il|[a-zA-Z]+.net)"
+            required>
+
+        <label for="phone">מספר טלפון</label>
+        <input id="phone" placeholder="052-1234567" pattern="[\d]{9-10}" required>
+
+        <label for="adress">כתובת מגורים</label>
+        <input type="text" id="adress" placeholder="הזית 1, תל אביב, ישראל" required>
+
+        <label for="tz">מספר זהות</label>
+        <input id="tz" placeholder="123456789" pattern="[\d]{9}" required>
+        <!-- !!תעודת זהות באנגלית -->
+
+        <label for="age">גיל</label>
+        <input type="number" id="age" placeholder="18" min="18" max="75" required>
+
+
+        <label for="state">מצב אישי</label>
+        <select id="state" required>
+            <option hidden selected></option>
+            <option>רווק</option>
+            <option>נשוי</option>
+            <option>גרוש</option>
+            <option>אלמן</option>
+        </select>
+
+
+        <label>עוד משהו שיש לך לומר לנו...</label>
+        <textarea name="message" rows="4"></textarea>
+
+        <button class="submit-button" onclick="message1()">שליחת בקשה</button>
+
+    </form>
+<script src="./end.js"></script>
+</body>
+
+</html>

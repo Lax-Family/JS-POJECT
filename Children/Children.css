@@ -1,0 +1,81 @@
+p {
+    text-align: center;
+}
+
+#bigDiv {
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: center;
+    padding: 40px 20px;
+
+}
+
+.allChild {
+    background-color: #f2faff;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+    /*צל*/
+    width: 15%;
+    text-align: center;
+    margin-bottom: 2%;
+    transition: transform 0.2s ease;
+    line-height: 1;
+    /*גובה שורה*/
+}
+
+.allChild:hover {
+    transform: translateY(-5px);
+}
+
+.allChild img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    /*מעגלת פינות עליונות שמאליות וימניות*/
+    border-top-right-radius: 15px;
+    cursor: pointer;
+
+}
+
+.names {
+    font-size: 18px;
+    color: #004b6b;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.shortDes {
+    font-size: 16px;
+    color: #004b6b;
+    margin: 10px 0 5px;
+}
+
+.budget {
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 0%;
+    padding-bottom: 10px;
+
+}
+
+/* כפתור למידע נוסף */
+.moreDetails {
+    background-color: #004e6e;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fa-regular.fa-heart,
+.fa-solid.fa-heart {
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
